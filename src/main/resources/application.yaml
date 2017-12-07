@@ -1,0 +1,282 @@
+scraper:
+  scraperSites:
+    -
+      name: amazon.de
+      url: https://www.amazon.de/dp/%s
+      scraperSiteType: AMAZONDE
+    -
+      name: amazon.fr
+      url: https://www.amazon.fr/dp/%s
+      scraperSiteType: AMAZONFR
+    -
+      name: bricklink.com
+      url: https://www.bricklink.com/ajax/clone/catalogifs.ajax?itemid=%s&ss=BE&cond=N&ii=0&iconly=0
+      scraperSiteType: BRICKLINK
+
+  itemsToWatch:
+    -
+      name: Rebel U-Wing Fighter
+      sites:
+        -
+          id: B01CCT2PQS
+          scraperSiteType: AMAZONDE
+        -
+          id: 148004
+          scraperSiteType: BRICKLINK
+        -
+          id: B01CCT2PQS
+          scraperSiteType: AMAZONFR
+
+    -
+      name: Resistance Troop Transporter
+      sites:
+        -
+          id: B013GYAIX0
+          scraperSiteType: AMAZONDE
+        -
+          id: B013GYAIX0
+          scraperSiteType: AMAZONFR
+        -
+          id: 140317
+          scraperSiteType: BRICKLINK
+    -
+      name: Slave I
+      sites:
+        -
+          id: B00OUVEN4E
+          scraperSiteType: AMAZONDE
+        -
+          id: 130894
+          scraperSiteType: BRICKLINK
+        -
+          id: B00OUVEN4E
+          scraperSiteType: AMAZONFR
+    -
+      name: Krennic's Imperial Shuttle Microfighter
+      sites:
+        -
+          id: B01J41KZZ0
+          scraperSiteType: AMAZONDE
+        -
+          id: 150227
+          scraperSiteType: BRICKLINK
+        -
+          id: B01J41KZZ0
+          scraperSiteType: AMAZONFR
+    -
+      name: Knight's Cycle polybag
+      sites:
+        -
+          id: B01BB7470E
+          scraperSiteType: AMAZONDE
+        -
+          id: 140552
+          scraperSiteType: BRICKLINK
+        -
+          id: B01BB7470E
+          scraperSiteType: AMAZONFR
+    -
+      name: Wish Fountain polybag
+      sites:
+        -
+          id: B00W3SV87Q
+          scraperSiteType: AMAZONDE
+        -
+          id: B00W3SV87Q
+          scraperSiteType: AMAZONFR
+        -
+          id: 132247
+          scraperSiteType: BRICKLINK
+    -
+      name: Volkswagen T1 Camper
+      sites:
+        -
+          id: B0050R0XEG
+          scraperSiteType: AMAZONDE
+        -
+          id: B0050R0XEG
+          scraperSiteType: AMAZONFR
+        -
+          id: 102314
+          scraperSiteType: BRICKLINK
+    -
+      name: Resistance X-Wing Microfighter
+      sites:
+        -
+          id: B012NODZTI
+          scraperSiteType: AMAZONDE
+        -
+          id: B012NODZTI
+          scraperSiteType: AMAZONFR
+        -
+          id: 140266
+          scraperSiteType: BRICKLINK
+    -
+      name: First Order Snowspeeder MicroFighter
+      sites:
+        -
+          id: 140269
+          scraperSiteType: BRICKLINK
+    -
+      name: TIE Advanced Prototype MicroFighter
+      sites:
+        -
+          id: 140275
+          scraperSiteType: BRICKLINK
+        -
+          id: B012NOHS3M
+          scraperSiteType: AMAZONDE
+        -
+          id: B012NOHS3M
+          scraperSiteType: AMAZONFR
+    -
+      name: Wookiee Gunship Microfighter
+      sites:
+        -
+          id: 140278
+          scraperSiteType: BRICKLINK
+    -
+      name: U-Wing MicroFighter
+      sites:
+        -
+          id: 150218
+          scraperSiteType: BRICKLINK
+        -
+          id: B01J41KJ5Q
+          scraperSiteType: AMAZONDE
+        -
+          id: B01J41KJ5Q
+          scraperSiteType: AMAZONFR
+    -
+      name: TIE Striker MicroFighter
+      sites:
+        -
+          id: 150221
+          scraperSiteType: BRICKLINK
+        -
+          id: B01J41KJ4M
+          scraperSiteType: AMAZONDE
+        -
+          id: B01J41KJ4M
+          scraperSiteType: AMAZONFR
+    -
+      name: Display Team Jet
+      sites:
+        -
+          id: 140073
+          scraperSiteType: BRICKLINK
+        -
+          id: B012NOF7VC
+          scraperSiteType: AMAZONDE
+        -
+          id: B012NOF7VC
+          scraperSiteType: AMAZONFR
+    -
+      name: Chevrolet Corvette Z06
+      sites:
+        -
+          id: 143376
+          scraperSiteType: BRICKLINK
+        -
+          id: B012NOD5AW
+          scraperSiteType: AMAZONDE
+        -
+          id: B012NOD5AW
+          scraperSiteType: AMAZONFR
+    -
+      name: Ford Mustang GT
+      sites:
+        -
+          id: 143379
+          scraperSiteType: BRICKLINK
+        -
+          id: B012NOFZVE
+          scraperSiteType: AMAZONDE
+        -
+          id: B012NOFZVE
+          scraperSiteType: AMAZONFR
+    -
+      name: Audi R18 e-tron quattro
+      sites:
+        -
+          id: 143382
+          scraperSiteType: BRICKLINK
+        -
+          id: B012NOLKHW
+          scraperSiteType: AMAZONDE
+        -
+          id: B012NOLKHW
+          scraperSiteType: AMAZONFR
+    -
+      name: Scarif Stormtrooper polybag
+      sites:
+        -
+          id: 155767
+          scraperSiteType: BRICKLINK
+        -
+          id: B0753ZQ81F
+          scraperSiteType: AMAZONDE
+        -
+          id: B0753ZQ81F
+          scraperSiteType: AMAZONFR
+    -
+      name: Mighty Dinosaurs
+      sites:
+        -
+          id: 150086
+          scraperSiteType: BRICKLINK
+        -
+          id: B01J41DNWM
+          scraperSiteType: AMAZONDE
+        -
+          id: B01J41DNWM
+          scraperSiteType: AMAZONFR
+    -
+      name: VIP polybag
+      sites:
+        -
+          id: B076D68678
+          scraperSiteType: AMAZONDE
+        -
+          id: B076D68678
+          scraperSiteType: AMAZONFR
+        -
+          id: 156848
+          scraperSiteType: BRICKLINK
+    -
+      name: 24 in 1 Seasons Greetings
+      sites:
+        -
+          id: B0775Z1W26
+          scraperSiteType: AMAZONDE
+        -
+          id: B0775Z1W26
+          scraperSiteType: AMAZONFR
+        -
+          id: 158398
+          scraperSiteType: BRICKLINK
+    -
+      name: Scuderia Ferrari SF16-H
+      sites:
+        -
+          id: B01J41GOZU
+          scraperSiteType: AMAZONDE
+        -
+          id: B01J41GOZU
+          scraperSiteType: AMAZONFR
+        -
+          id: 151448
+          scraperSiteType: BRICKLINK
+    -
+      name: The Water Dragon Adventure
+      sites:
+        -
+          id: B012NOIBVA
+          scraperSiteType: AMAZONDE
+        -
+          id: B012NOIBVA
+          scraperSiteType: AMAZONFR
+        -
+          id: 143346
+          scraperSiteType: BRICKLINK
+
