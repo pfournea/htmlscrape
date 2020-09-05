@@ -6,6 +6,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 
 import java.io.IOException;
 
@@ -21,13 +22,13 @@ public class AmazonHtmlScraper implements HtmlPriceScraper {
                     .timeout(3000)
                     .get();
             Element priceblock_ourprice = doc.getElementById("priceblock_ourprice");
-            if(priceblock_ourprice != null) {
+            if (priceblock_ourprice != null) {
                 return getPriceDto(priceblock_ourprice);
             } else {
                 Element buyBox = doc.getElementById("unqualifiedBuyBox");
-                if(null != buyBox) {
+                if (null != buyBox) {
                     Elements elementsByClass = buyBox.getElementsByClass("a-color-price");
-                    if(elementsByClass != null) {
+                    if (elementsByClass != null && elementsByClass.first() != null) {
                         return getPriceDto(elementsByClass.first());
                     }
                 }
@@ -40,7 +41,7 @@ public class AmazonHtmlScraper implements HtmlPriceScraper {
 
     private PriceDto getPriceDto(Element priceblock_ourprice) {
         String priceWithEuroAsString = priceblock_ourprice.text();
-        String priceAsString = priceWithEuroAsString.replace("EUR", "").replace(",", ".");
+        String priceAsString = priceWithEuroAsString.replace("EUR", "").replace(",", ".").replace("€", "").replaceAll("[^\\d.]", "");
         System.out.println(priceWithEuroAsString);
         return new PriceDto(Double.valueOf(priceAsString));
     }
